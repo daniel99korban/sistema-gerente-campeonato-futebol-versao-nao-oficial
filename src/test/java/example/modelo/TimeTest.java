@@ -1,6 +1,6 @@
-package org.modelos;
+package example.modelo;
 
-public class Time {
+public class TimeTest {
     private Integer id;
     private String nome;
 }

@@ -1,14 +1,14 @@
-package org.modelos;
+package example.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Resultado {
+public class ResultadoTest {
     private Integer numGolsMandante;
     private Integer numGolsVisitante;
-    private List<Cartao> cartoes;
+    private List<CartaoTest> cartoes;
 
-    public Resultado() {
+    public ResultadoTest() {
         this.cartoes = new ArrayList<>();
     }
 
@@ -31,7 +31,7 @@ public class Resultado {
         return this.cartoes.size();
     }
 
-    public void setCartoes(List<Cartao> cartoes) {
+    public void setCartoes(List<CartaoTest> cartoes) {
         this.cartoes = cartoes;
     }
 }

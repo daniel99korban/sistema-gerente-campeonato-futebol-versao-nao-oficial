@@ -1,12 +1,12 @@
-package org.modelos;
+package example.modelo;
 
 import java.time.LocalDate;
 
-public class Jogador {
+public class JogadorTest {
     private Integer id;
     private String nome;
     private LocalDate nascimento;
-    private Genero genero;
+    private GeneroTest generoTest;
     private float altura;
 
 

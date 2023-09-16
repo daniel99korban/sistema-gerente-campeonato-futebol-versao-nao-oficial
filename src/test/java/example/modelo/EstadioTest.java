@@ -1,6 +1,6 @@
-package org.modelos;
+package example.modelo;
 
-public class Estadio {
+public class EstadioTest {
     private Integer id;
     private String nome;
     private String endereco;

@@ -1,4 +1,4 @@
-package org.modelos;
+package org.example.modelo;
 
 public class Campeonato {
     private Integer id;
