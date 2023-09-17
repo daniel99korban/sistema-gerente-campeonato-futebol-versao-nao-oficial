@@ -1,8 +1,7 @@
 package example.modelo;
 
-import java.time.LocalDate;
+import org.junit.jupiter.api.*;
 
 public class PartidaTest {
-    private Integer id;
-    private LocalDate data;
+
 }

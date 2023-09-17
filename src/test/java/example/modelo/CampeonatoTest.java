@@ -1,7 +1,8 @@
 package example.modelo;
 
+import org.junit.jupiter.api.*;
+
 public class CampeonatoTest {
-    private Integer id;
-    private Integer ano;
-    private String nome;
+
 }
+

@@ -1,7 +1,6 @@
 package example.modelo;
 
+import org.junit.jupiter.api.*;
+
 public class EstadioTest {
-    private Integer id;
-    private String nome;
-    private String endereco;
 }

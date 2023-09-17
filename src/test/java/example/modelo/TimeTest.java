@@ -1,6 +1,7 @@
 package example.modelo;
 
+import org.junit.jupiter.api.*;
+
 public class TimeTest {
-    private Integer id;
-    private String nome;
+
 }

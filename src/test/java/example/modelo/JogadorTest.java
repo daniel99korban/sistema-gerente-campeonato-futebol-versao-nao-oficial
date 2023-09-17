@@ -1,17 +1,8 @@
 package example.modelo;
 
-import java.time.LocalDate;
+import org.junit.jupiter.api.*;
 
 public class JogadorTest {
-    private Integer id;
-    private String nome;
-    private LocalDate nascimento;
-    private GeneroTest generoTest;
-    private float altura;
-
-
-    public void setDataNascimento(String dia, String mes, String ano){
-        // code aqui
-    }
 
 }
+
