@@ -18,7 +18,7 @@ public class Time {
         this.jogadores = new ArrayList<>();
     }
 
-    public void montarTime(Jogador ...jogadores){
+    public void montarTime(Jogador ...jogadores){// possivelmente será refeita
         for (Jogador jogador: jogadores) {
             this.jogadores.add(jogador);
         }
