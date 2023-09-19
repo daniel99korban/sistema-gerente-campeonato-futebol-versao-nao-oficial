@@ -8,18 +8,24 @@ public class Jogador {
     private LocalDate nascimento;
     private Genero genero;
     private float altura;
-    private StatusJogador status;
+    private Status status;
 
-    public Jogador(String nome, LocalDate nascimento, Genero genero, float altura) {
+    public Jogador(
+            String nome,
+            LocalDate nascimento,
+            Genero genero,
+            float altura,
+            Status status
+    ) {
         this.nome = nome;
         this.nascimento = nascimento;
         this.genero = genero;
         this.altura = altura;
-        this.status = StatusJogador.DISPONIVEL;// Estado inicial de um jogador
+        this.status = status;
     }
 
-    public void setDataNascimento(String dia, String mes, String ano){
-        // code aqui
+    public void setDataNascimento(LocalDate nasc){
+        this.nascimento = nasc;
     }
 
     public String getNome() {
@@ -38,11 +44,20 @@ public class Jogador {
         return altura;
     }
 
-    public StatusJogador getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(StatusJogador status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
+
+    public boolean disponivelParaContrato(){
+        return this.status == Status.DISPONIVEL;
+    }
+
+    public boolean lesionadoOuContratado(){
+        return this.status == Status.CONTRATADO || this.status == Status.LESIONADO;
+    }
+
 }
